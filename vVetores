@@ -1,0 +1,19 @@
+Algoritmo "testeVetor"
+Var
+   v: vetor [1..4] de inteiro
+   c: inteiro
+Inicio
+
+   // Laço para entrada dos valores no vetor
+   para c <- 1 ate 4 faca
+      escreva("Digite o ", c, "º valor: ")
+      leia(v[c])
+   fimpara
+   
+   para c <- 1 ate 4 faca
+        escreva("{",v[c], "}")
+   fimpara
+   
+Fimalgoritmo
+
+
